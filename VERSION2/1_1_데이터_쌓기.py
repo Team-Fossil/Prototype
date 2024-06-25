@@ -10,7 +10,7 @@ mp_hands = mp.solutions.hands
 
 # CSV 파일을 열고 writer 객체를 생성합니다.
 # 파일이 존재하지 않으면 새로 생성하고, 존재하면 추가로 기록
-with open('/Users/apple/Desktop/Python/2nd_Grade/Commpetition/Prototype/VERSION2/ROCK.csv', mode='a', newline='') as file:
+with open('/Users/apple/Desktop/Python/2nd_Grade/Commpetition/Prototype/VERSION2/TEST.csv', mode='a', newline='') as file:
     writer = csv.writer(file)
     
     # 파일이 비어있으면 헤더를 작성합니다.
